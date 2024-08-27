@@ -1,0 +1,29 @@
+.chess-board
+{ 
+    border: 4px solid black;
+    box-shadow: 0 0  15px white;
+    border-collapse: collapse;
+ }
+.chess-board td 
+{ 
+    border: 1px solid; 
+    width: 70px; 
+    height: 60px; 
+}
+.chess-board .light 
+{ 
+    background: white; 
+}
+.chess-board .dark
+{ 
+    background: rgb(169, 169, 230);
+ }
+
+.chess-board{
+    margin-top: 50px;
+    margin-left: 350px;
+  
+}
+body{
+    background-color: darkgrey;
+}
